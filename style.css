@@ -7,7 +7,8 @@ body{
     font-family: 'Roboto', sans-serif;
     margin:0px;
     height: 100vh;
-    flex-shrink:0;
+    flex:1;
+    max-width: 1440px;
 }
 .header{
     background-color: #1F2937;
@@ -18,9 +19,9 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 0px;
-
-
+    padding: 3vh;
+    padding-left: 270px;
+    padding-right: 270px;
 }
 .rheader{
     font-size: 24px;
@@ -28,13 +29,11 @@ body{
     color: #F9FAF8;
     display:flex;
     justify-content: flex-start;
-    flex-basis: 50%;
 
 }
 .lheader{
     display: flex;
     gap: 20px;
-    flex-basis: 50%;
     justify-content: center;
 
 }
@@ -46,7 +45,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex:auto;
+     padding:11vh;
+     padding-left: 270px;
+     padding-right: 270px;
+     gap:25px;
     }
 
 .body1 .left-content{
@@ -54,7 +56,9 @@ body{
     flex-flow: column wrap;
     gap: 10px;
     align-content: center;
-    flex-basis: 40vh;
+    font-size: 18px;
+    color: #E5E7Eb;
+    flex-basis:50%
 
 }
 .hero{
@@ -69,23 +73,27 @@ body{
     color: #E5E7Eb;
     display:flex;
     justify-content: center;
-    flex-basis: 40vh;
-}
+    flex-basis:50%;
+ }
 
 
 .right-content .img{
-    width: 450px;
-    height: 150px;
     background-color: gray;
-
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis:100%; 
+    height: 250px;
 }
 button{
+    font-size: 18px;
+    font-weight:600;
     color:white;
     background-color:#3882F6;
-    padding: 5px;
-    padding-left: 22px;
-    padding-right: 22px;
-    border-radius: 5px;;
+    padding: 9px;
+    padding-left: 31px;
+    padding-right: 31px;
+    border-radius: 6px;;
 
 }
 .left-content button{
@@ -101,26 +109,26 @@ button{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    margin: 30px;
+    margin: 50px;
 }
 .example-container{
     display:flex;
     justify-content: center;
-    gap:40px;
+    gap:50px;
     flex:auto;
 }
 .exampleimg{
-    border-radius: 12px;
-    border: 3px solid #3882F6;
-    height: 125px;
-    width: 125px;
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+    height: 170px;
+    width: 170px;
 }
 .example{
     display:flex;
     flex-flow: column wrap;
     gap: 5px;
-    flex-basis:125px;
-    font-size: 13px;
+    flex-basis:185px;
+    font-size: 20px;
 }
 
 .body3{
@@ -129,20 +137,22 @@ button{
     flex-direction: column;
 
     justify-content: center;
-    padding: 5vh;
+    padding: 7vh;
+    margin-bottom: 90px;
 }
 .quote{
-    width: 65vh;
+    width: 66vh;
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
     display:flex;
     align-self: center;
 }
 .origin{
     width: 65vh;
     color: #1f2937;
+    font-size: 24px;
     font-weight: 900;
     display:flex;
     align-self:center;
@@ -159,6 +169,7 @@ button{
     align-items: center;
     justify-content: space-evenly;
     align-self:center;
+    padding: 40px;
 }
 .body4 .left-content{
     color: #F9FAF8;
@@ -179,4 +190,5 @@ button{
     display:flex;
     justify-content: center;
     padding: 20px;
+    margin-top: 90px;
 }
