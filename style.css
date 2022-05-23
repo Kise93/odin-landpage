@@ -84,11 +84,12 @@ button{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: 30px;
 }
 .example-container{
     display:flex;
     justify-content: center;
-    gap:20px;
+    gap:40px;
 }
 .exampleimg{
     border-radius: 12px;
@@ -103,13 +104,40 @@ button{
 
 .body3{
     background-color:#E5E7EB;
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+}
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.origin{
+    color: #1f2937;
+    font-weight: 900;
+    display:flex;
+    justify-content: flex-end;
 }
 
+.body4{
+    text-align: center;
+    background-color:#3882F6;
+    height: 100px;
+    width: 800px;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.body4 .left-content{
+    color: #F9FAF8;
+    text-align: start;
+}
 
 .footer{
     background-color: #1F2937;
-    border: 2px solid red;
-    font-family: roboto;
     color: #F9FAF8;
     display:flex;
     justify-content: center;
