@@ -1,0 +1,117 @@
+/*style.css*/
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.header{
+    background-color: #1F2937;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F9FAF8;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.rheader{
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+.lheader{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+
+.body1{
+    background-color: #1F2937;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.body1 .left-content{
+    display:flex;
+    flex-flow: column wrap;
+    gap:10px;
+    flex-basis: 35%;
+}
+
+.body1 .right-content{
+    display:flex;
+    justify-content: flex-end;
+    flex-basis: 50%;
+}
+.hero{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.right-content .subtext{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+.right-content .img{
+    height: 200px;
+    width: 400px;
+    background-color: gray;
+}
+button{
+    color:white;
+    background-color:#3882F6;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;;
+
+}
+.left-content button{
+    border:#3882F6
+}
+
+.body2{
+    text-align: center;
+}
+
+.header2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.example-container{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+.exampleimg{
+    border-radius: 12px;
+    border: 3px solid #3882F6;
+    height: 125px;
+    width: 125px;
+}
+.example{
+    flex-basis:125px;
+    font-size: 13px;
+}
+
+.body3{
+    background-color:#E5E7EB;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    border: 2px solid red;
+    font-family: roboto;
+    color: #F9FAF8;
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
